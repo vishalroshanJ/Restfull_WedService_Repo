@@ -48,7 +48,7 @@ public class MyController {
 	
 	//PUT-updating
 	@PutMapping("/course")
-	public Course updateCourse(@PathVariable Course cr )
+	public Course updateCourse(@RequestBody Course cr )
 	{
 		return cs.updateCourse(cr);
 		

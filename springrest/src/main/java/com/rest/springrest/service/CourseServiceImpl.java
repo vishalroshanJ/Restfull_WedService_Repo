@@ -55,7 +55,8 @@ public class CourseServiceImpl implements CourseService {
 		 * e.setC_name(cr.getC_name()); e.setC_desc(cr.getC_desc()); } }); return cr;
 		 */
 		cd.save(cr);
-		return cr;
+ 	    return cr;
+		
 	}
 
 	@Override
