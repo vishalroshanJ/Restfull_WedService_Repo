@@ -15,4 +15,5 @@ public class DeatilokayApplication {
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
+	
 }
